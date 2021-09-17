@@ -43,16 +43,16 @@
         h = a.n(p),
         m = a(25),
         b = a.n(m),
-        y = (a(41), a.p, a.p + "static/media/home_bg_video.f2da96c3.mp4"),
-        g = a.p + "static/media/video6.5f55925d.mp4",
-        j = a.p + "static/media/video7.af7b5d31.mp4",
+        y = (a(41), a.p, a.p + "video/202108212052.mp4"),
+        g = a.p + "video/bf0b9bfa30425c5414271.mp4",
+        j = a.p + "video/bf0b9bfa30425c5414271.mp4",
         f = a(57),
         v = a(55),
         x = a(56),
         O = a(52),
         w = a(53),
         A = a(54),
-        N = a.p + "static/media/logo.112c042a.png",
+        N = a.p + "images/logo192.png",
         q =
           (a(42),
           function () {
@@ -256,7 +256,7 @@
                               children: Object(c.jsx)(b.a, {
                                 onInit: function (e) {
                                   e.typeString(
-                                    "Hi Every Precious Moment, Showing Your World Better"
+                                    "Capture Every Precious Moment, Showing Your World Better"
                                   ).start();
                                 },
                               }),
