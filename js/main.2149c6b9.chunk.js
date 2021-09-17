@@ -5293,8 +5293,8 @@
                   children: [
                     "Copyright \xa9 2021 Design and developed by",
                     Object(c.jsx)("a", {
-                      href: "https://smashcode.dev/",
-                      children: " Smash-Code",
+                      href: "https://timieofficial.com/",
+                      children: "TIMIE Network Technology Ltd.",
                     }),
                   ],
                 }),
