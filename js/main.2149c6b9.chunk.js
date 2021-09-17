@@ -5294,7 +5294,7 @@
                     "Copyright \xa9 2021 Design and developed by",
                     Object(c.jsx)("a", {
                       href: "https://timieofficial.com/",
-                      children: "TIMIE Network Technology Ltd.",
+                      children: " TIMIE Network Technology Ltd.",
                     }),
                   ],
                 }),
