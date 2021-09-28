@@ -12,528 +12,531 @@
     48: function (e, o, a) {},
     49: function (e, o, a) {},
     50: function (e, o, a) {
-      "use strict";
-      a.r(o);
-      var i = a(1),
-        s = a.n(i),
-        r = a(24),
-        n = a.n(r),
-        t = (a(31), a(16)),
-        c = (a(32), a(33), a(0)),
-        d = function () {
-          return Object(c.jsx)(c.Fragment, {
-            children: Object(c.jsxs)("div", {
-              className: "loader-main",
-              children: [
-                Object(c.jsx)("div", { className: "loader" }),
-                Object(c.jsx)("div", {
-                  class: "loading-container",
-                  children: Object(c.jsx)("h2", {
-                    class: "loading-text",
-                    children: "PENGUINS...",
-                  }),
-                }),
-              ],
-            }),
-          });
-        },
-        l = a(5),
-        u = a(7),
-        p = (a(35), a(11)),
-        h = a.n(p),
-        m = a(25),
-        b = a.n(m),
-        y = (a(41), a.p, a.p + "video/background.webm"),
-        g = a.p + "video/bf0b9bfa30425c5414271.mp4",
-        j = a.p + "video/bf0b9bfa30425c5414271.mp4",
-        f = a(57),
-        v = a(55),
-        x = a(56),
-        O = a(52),
-        w = a(53),
-        A = a(54),
-        N = a.p + "images/logo192.png",
-        q =
-          (a(42),
-          function () {
-            var e = Object(i.useState)(!1),
-              o = Object(t.a)(e, 2),
-              a = o[0],
-              s = o[1];
+        "use strict";
+        a.r(o);
+        var i = a(1),
+          s = a.n(i),
+          r = a(24),
+          n = a.n(r),
+          t = (a(31), a(16)),
+          c = (a(32), a(33), a(0)),
+          d = function () {
             return Object(c.jsx)(c.Fragment, {
               children: Object(c.jsxs)("div", {
-                className: a ? "topbar show" : "topbar",
+                className: "loader-main",
                 children: [
-                  Object(c.jsxs)("div", {
-                    className: "bar-con",
-                    children: [
-                      Object(c.jsx)("a", {
-                        href: "/",
-                        children: Object(c.jsx)("img", { src: N, alt: "" }),
-                      }),
-                      Object(c.jsx)("span", {
-                        className: "icon-box",
-                        children: Object(c.jsx)("i", {
-                          className: "btn-move sidebar-toggle-btn",
-                          onClick: function () {
-                            return s(!a);
-                          },
-                          children: "\xa0",
-                        }),
-                      }),
-                    ],
-                  }),
-                  Object(c.jsxs)("div", {
-                    children: [
-                      Object(c.jsx)("div", {
-                        className: "circle-box hide",
-                        children: Object(c.jsx)("div", {
-                          className: "circle-open",
-                          children: Object(c.jsx)("i", { className: "safari" }),
-                        }),
-                      }),
-                      Object(c.jsxs)("div", {
-                        className: "circle-box hide",
-                        children: [
-                          Object(c.jsx)("div", {
-                            className: "circle-close small",
-                          }),
-                          Object(c.jsx)("i", {
-                            className: "close-place sidebar-toggle-btn",
-                          }),
-                        ],
-                      }),
-                    ],
-                  }),
+                  Object(c.jsx)("div", { className: "loader" }),
                   Object(c.jsx)("div", {
-                    className: a ? "wrap-mask show" : "wrap-mask",
-                    children: Object(c.jsxs)("div", {
-                      className: "sidebar",
-                      children: [
-                        Object(c.jsxs)("div", {
-                          className: "top",
-                          children: [
-                            Object(c.jsx)("a", {
-                              href: "/",
-                              children: Object(c.jsx)("img", {
-                                src: N,
-                                alt: "...",
-                              }),
-                            }),
-                            Object(c.jsx)("i", {
-                              className: "close-bar",
-                              onClick: function () {
-                                return s(!a);
-                              },
-                              children: "\xa0",
-                            }),
-                          ],
-                        }),
-                        Object(c.jsxs)("ul", {
-                          children: [
-                            Object(c.jsx)("li", {
-                              className: "sidemove delay1",
-                              children: Object(c.jsx)(l.b, {
-                                to: "/",
-                                "data-text": "Penguin",
-                                children: "Penguin",
-                              }),
-                            }),
-                            Object(c.jsx)("li", {
-                              className: "sidemove delay6",
-                              children: Object(c.jsx)(l.b, {
-                                to: "/terms",
-                                "data-text": "Terms of Service",
-                                children: "Terms of Service",
-                              }),
-                            }),
-                            Object(c.jsx)("li", {
-                              className: "sidemove delay7",
-                              children: Object(c.jsx)(l.b, {
-                                to: "/privacy",
-                                "data-text": "Privacy Policy",
-                                children: "Privacy Policy",
-                              }),
-                            }),
-                            Object(c.jsx)("li", {
-                              className: "sidemove delay8",
-                              children: Object(c.jsx)(l.b, {
-                                to: "/copy-right",
-                                "data-text": "Copyright Policy",
-                                children: "Copyright Policy",
-                              }),
-                            }),
-                            Object(c.jsx)("li", {
-                              className: "sidemove delay9",
-                              children: Object(c.jsx)(l.b, {
-                                to: "/contact",
-                                "data-text": "Contact Us",
-                                children: "Contact Us",
-                              }),
-                            }),
-                            Object(c.jsx)("li", {
-                              className: "sidemove delay10",
-                              children: Object(c.jsx)(l.b, {
-                                to: "/community-guide",
-                                "data-text": "Community Guidelines",
-                                children: "Community Guidelines",
-                              }),
-                            }),
-                          ],
-                        }),
-                        Object(c.jsxs)("div", {
-                          className: "social-btn sidemove delay10",
-                          children: [
-                            Object(c.jsx)("div", {
-                              children: Object(c.jsx)("a", {
-                                href: "https://www.facebook.com/penguuinsnap",
-                                target: "_blank",
-                                children: Object(c.jsx)("img", {
-                                  src: "data:image/png;base64,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",
-                                  alt: "",
-                                }),
-                              }),
-                            }),
-                            Object(c.jsx)("div", {
-                              children: Object(c.jsx)("a", {
-                                href: "https://www.instagram.com/penguinsnap_official/",
-                                target: "_blank",
-                                children: Object(c.jsx)("img", {
-                                  src: "data:image/png;base64,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",
-                                  alt: "",
-                                }),
-                              }),
-                            }),
-                            Object(c.jsx)("a", {
-                              href: "https://twitter.com/PENGUINs_mx",
-                              target: "_blank",
-                              children: Object(c.jsx)("img", {
-                                src: "data:image/png;base64,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",
-                                alt: "",
-                              }),
-                            }),
-                          ],
-                        }),
-                      ],
+                    class: "loading-container",
+                    children: Object(c.jsx)("h2", {
+                      class: "loading-text",
+                      children: "PENGUINS...",
                     }),
                   }),
                 ],
               }),
             });
-          });
-      x.a.use([O.a, w.a, A.a]);
-      var S = function () {
-          var e = s.a.useRef(null),
-            o = s.a.useRef(null);
-          return Object(c.jsx)(s.a.Fragment, {
-            children: Object(c.jsxs)("div", {
-              className: "home-video-wrapper pc",
-              children: [
-                Object(c.jsx)("video", {
-                  controls: !1,
-                  autoPlay: !0,
-                  loop: !0,
-                  muted: !0,
-                  playsInline: !0,
-                  class: "home-video-bg",
-                  children: Object(c.jsx)("source", {
-                    src: y,
-                    type: "video/mp4",
-                  }),
-                }),
-                Object(c.jsxs)("div", {
-                  className: "wrap-page page-home",
+          },
+          l = a(5),
+          u = a(7),
+          p = (a(35), a(11)),
+          h = a.n(p),
+          m = a(25),
+          b = a.n(m),
+          y = (a(41), a.p, a.p + "video/background.webm"),
+          g = a.p + "video/bf0b9bfa30425c5414271.mp4",
+          j = a.p + "video/bf0b9bfa30425c5414271.mp4",
+          f = a(57),
+          v = a(55),
+          x = a(56),
+          O = a(52),
+          w = a(53),
+          A = a(54),
+          N = a.p + "/images/logo.112c042a.png",
+          q =
+            (a(42),
+            function () {
+              var e = Object(i.useState)(!1),
+                o = Object(t.a)(e, 2),
+                a = o[0],
+                s = o[1];
+              return Object(c.jsx)(c.Fragment, {
+                children: Object(c.jsxs)("div", {
+                  className: a ? "topbar show" : "topbar",
                   children: [
-                    Object(c.jsx)(q, {}),
                     Object(c.jsxs)("div", {
-                      className: "big-home",
+                      className: "bar-con",
                       children: [
+                        Object(c.jsx)("a", {
+                          href: "/",
+                          children: Object(c.jsx)("img", { src: N, alt: "" }),
+                        }),
+                        Object(c.jsx)("span", {
+                          className: "icon-box",
+                          children: Object(c.jsx)("i", {
+                            className: "btn-move sidebar-toggle-btn",
+                            onClick: function () {
+                              return s(!a);
+                            },
+                            children: "\xa0",
+                          }),
+                        }),
+                      ],
+                    }),
+                    Object(c.jsxs)("div", {
+                      children: [
+                        Object(c.jsx)("div", {
+                          className: "circle-box hide",
+                          children: Object(c.jsx)("div", {
+                            className: "circle-open",
+                            children: Object(c.jsx)("i", { className: "safari" }),
+                          }),
+                        }),
                         Object(c.jsxs)("div", {
-                          className: "slogan-box",
+                          className: "circle-box hide",
                           children: [
                             Object(c.jsx)("div", {
-                              className: "s-img",
-                              children: Object(c.jsx)(b.a, {
-                                onInit: function (e) {
-                                  e.typeString(
-                                    "Capture Every Precious Moment, Showing Your World Better"
-                                  ).start();
-                                },
-                              }),
+                              className: "circle-close small",
                             }),
-                            Object(c.jsx)("div", {
-                              className: "btns desktop-btn",
-                              children: Object(c.jsxs)("div", {
-                                className: "download-btns all-channel",
-                                children: [
-                                  Object(c.jsx)(h.a, {
-                                    top: !0,
-                                    duration: 1200,
-                                    delay: 1e3,
-                                    children: Object(c.jsx)("button", {
-                                      className: "android",
-                                      children: Object(c.jsx)("img", {
-                                        src: "//aws-static.kwai.net/udata/pkg/proweb/www/download_gp.png",
-                                        alt: "",
-                                      }),
-                                    }),
-                                  }),
-                                  Object(c.jsx)(h.a, {
-                                    top: !0,
-                                    duration: 1200,
-                                    delay: 1e3,
-                                    children: Object(c.jsx)("button", {
-                                      className: "ios",
-                                      children: Object(c.jsx)("img", {
-                                        src: "//aws-static.kwai.net/udata/pkg/proweb/www/download_appstore.png",
-                                        alt: "",
-                                      }),
-                                    }),
-                                  }),
-                                ],
-                              }),
+                            Object(c.jsx)("i", {
+                              className: "close-place sidebar-toggle-btn",
                             }),
                           ],
                         }),
-                        Object(c.jsx)("div", {
-                          className: "home-video",
-                          children: Object(c.jsx)(h.a, {
-                            bottom: !0,
-                            duration: 1400,
-                            delay: 1200,
-                            children: Object(c.jsxs)("div", {
-                              className: "video-container",
-                              children: [
-                                Object(c.jsx)("div", {
-                                  ref: o,
-                                  className: "arrow arrow-t btn-move",
+                      ],
+                    }),
+                    Object(c.jsx)("div", {
+                      className: a ? "wrap-mask show" : "wrap-mask",
+                      children: Object(c.jsxs)("div", {
+                        className: "sidebar",
+                        children: [
+                          Object(c.jsxs)("div", {
+                            className: "top",
+                            children: [
+                              Object(c.jsx)("a", {
+                                href: "/",
+                                children: Object(c.jsx)("img", {
+                                  src: N,
+                                  alt: "...",
                                 }),
-                                Object(c.jsx)("div", {
-                                  ref: e,
-                                  className: "arrow arrow-d btn-move",
+                              }),
+                              Object(c.jsx)("i", {
+                                className: "close-bar",
+                                onClick: function () {
+                                  return s(!a);
+                                },
+                                children: "\xa0",
+                              }),
+                            ],
+                          }),
+                          Object(c.jsxs)("ul", {
+                            children: [
+                              Object(c.jsx)("li", {
+                                className: "sidemove delay1",
+                                children: Object(c.jsx)(l.b, {
+                                  to: "/",
+                                  "data-text": "Penguin",
+                                  children: "Penguin",
                                 }),
-                                Object(c.jsxs)(f.a, {
-                                  navigation: {
-                                    prevEl: e.current,
-                                    nextEl: o.current,
+                              }),
+                              Object(c.jsx)("li", {
+                                className: "sidemove delay6",
+                                children: Object(c.jsx)(l.b, {
+                                  to: "/terms",
+                                  "data-text": "Terms of Service",
+                                  children: "Terms of Service",
+                                }),
+                              }),
+                              Object(c.jsx)("li", {
+                                className: "sidemove delay7",
+                                children: Object(c.jsx)(l.b, {
+                                  to: "/privacy",
+                                  "data-text": "Privacy Policy",
+                                  children: "Privacy Policy",
+                                }),
+                              }),
+                              Object(c.jsx)("li", {
+                                className: "sidemove delay8",
+                                children: Object(c.jsx)(l.b, {
+                                  to: "/copy-right",
+                                  "data-text": "Copyright Policy",
+                                  children: "Copyright Policy",
+                                }),
+                              }),
+                              Object(c.jsx)("li", {
+                                className: "sidemove delay9",
+                                children: Object(c.jsx)(l.b, {
+                                  to: "/contact",
+                                  "data-text": "Contact Us",
+                                  children: "Contact Us",
+                                }),
+                              }),
+                              Object(c.jsx)("li", {
+                                className: "sidemove delay10",
+                                children: Object(c.jsx)(l.b, {
+                                  to: "/community-guide",
+                                  "data-text": "Community Guidelines",
+                                  children: "Community Guidelines",
+                                }),
+                              }),
+                            ],
+                          }),
+                          Object(c.jsxs)("div", {
+                            className: "social-btn sidemove delay10",
+                            children: [
+                              Object(c.jsx)("div", {
+                                children: Object(c.jsx)("a", {
+                                  href: "https://www.facebook.com/penguuinsnap",
+                                  target: "_blank",
+                                  children: Object(c.jsx)("img", {
+                                    src: "data:image/png;base64,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",
+                                    alt: "",
+                                  }),
+                                }),
+                              }),
+                              Object(c.jsx)("div", {
+                                children: Object(c.jsx)("a", {
+                                  href: "https://www.instagram.com/penguinsnap_official/",
+                                  target: "_blank",
+                                  children: Object(c.jsx)("img", {
+                                    src: "data:image/png;base64,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",
+                                    alt: "",
+                                  }),
+                                }),
+                              }),
+                              Object(c.jsx)("a", {
+                                href: "https://twitter.com/PENGUINs_mx",
+                                target: "_blank",
+                                children: Object(c.jsx)("img", {
+                                  src: "data:image/png;base64,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",
+                                  alt: "",
+                                }),
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                    }),
+                  ],
+                }),
+              });
+            });
+        x.a.use([O.a, w.a, A.a]);
+
+        var S = function () {
+            var e = s.a.useRef(null),
+              o = s.a.useRef(null);
+            return Object(c.jsx)(s.a.Fragment, {
+              children: Object(c.jsxs)("div", {
+                className: "home-video-wrapper pc",
+                children: [
+                  Object(c.jsx)("video", {
+                    controls: !1,
+                    autoPlay: !0,
+                    loop: !0,
+                    muted: !0,
+                    playsInline: !0,
+                    class: "home-video-bg",
+                    children: Object(c.jsx)("source", {
+                      src: y,
+                      type: `video/webm`,
+                    }),
+                  }),
+                  Object(c.jsxs)("div", {
+                    className: "wrap-page page-home",
+                    children: [
+                      Object(c.jsx)(q, {}),
+                      Object(c.jsxs)("div", {
+                        className: "big-home",
+                        children: [
+                          Object(c.jsxs)("div", {
+                            className: "slogan-box",
+                            children: [
+                              Object(c.jsx)("div", {
+                                className: "s-img",
+                                children: Object(c.jsx)(b.a, {
+                                  onInit: function (e) {
+                                    e.typeString(
+                                      "Capture Every Precious Moment, Showing Your World Better"
+                                    ).start();
                                   },
-                                  onInit: function (a) {
-                                    (a.params.navigation.prevEl = e.current),
-                                      (a.params.navigation.nextEl = o.current),
-                                      a.navigation.init(),
-                                      a.navigation.update();
-                                  },
-                                  spaceBetween: 70,
-                                  slidesPerView: 1,
-                                  height: "500",
-                                  loop: !0,
-                                  autoplay: {
-                                    disableOnInteraction: !1,
-                                    delay: 2e4,
-                                  },
+                                }),
+                              }),
+                              Object(c.jsx)("div", {
+                                className: "btns desktop-btn",
+                                children: Object(c.jsxs)("div", {
+                                  className: "download-btns all-channel",
                                   children: [
-                                    Object(c.jsx)(v.a, {
-                                      children: Object(c.jsx)("div", {
-                                        className: "video-item",
-                                        children: Object(c.jsx)("video", {
-                                          controls: !1,
-                                          autoPlay: !0,
-                                          loop: !0,
-                                          muted: !0,
-                                          playsInline: !0,
-                                          className: "video-phone",
-                                          height: "100%",
-                                          width: "100%",
-                                          children: Object(c.jsx)("source", {
-                                            src: j,
-                                            type: "video/mp4",
-                                          }),
+                                    Object(c.jsx)(h.a, {
+                                      top: !0,
+                                      duration: 1200,
+                                      delay: 1e3,
+                                      children: Object(c.jsx)("button", {
+                                        className: "android",
+                                        children: Object(c.jsx)("img", {
+                                          src: "//aws-static.kwai.net/udata/pkg/proweb/www/download_gp.png",
+                                          alt: "",
                                         }),
                                       }),
                                     }),
-                                    Object(c.jsx)(v.a, {
-                                      children: Object(c.jsx)("div", {
-                                        className: "video-item",
-                                        children: Object(c.jsx)("video", {
-                                          controls: !1,
-                                          autoPlay: !0,
-                                          loop: !0,
-                                          muted: !0,
-                                          playsInline: !0,
-                                          className: "video-phone",
-                                          height: "100%",
-                                          width: "100%",
-                                          children: Object(c.jsx)("source", {
-                                            src: g,
-                                            type: "video/mp4",
-                                          }),
-                                        }),
-                                      }),
-                                    }),
-                                    Object(c.jsx)(v.a, {
-                                      children: Object(c.jsx)("div", {
-                                        className: "video-item",
-                                        children: Object(c.jsx)("video", {
-                                          controls: !1,
-                                          autoPlay: !0,
-                                          loop: !0,
-                                          muted: !0,
-                                          playsInline: !0,
-                                          className: "video-phone",
-                                          height: "100%",
-                                          width: "100%",
-                                          children: Object(c.jsx)("source", {
-                                            src: g,
-                                            type: "video/mp4",
-                                          }),
-                                        }),
-                                      }),
-                                    }),
-                                    Object(c.jsx)(v.a, {
-                                      children: Object(c.jsx)("div", {
-                                        className: "video-item",
-                                        children: Object(c.jsx)("video", {
-                                          controls: !1,
-                                          autoPlay: !0,
-                                          loop: !0,
-                                          muted: !0,
-                                          playsInline: !0,
-                                          className: "video-phone",
-                                          height: "100%",
-                                          width: "100%",
-                                          children: Object(c.jsx)("source", {
-                                            src: g,
-                                            type: "video/mp4",
-                                          }),
-                                        }),
-                                      }),
-                                    }),
-                                    Object(c.jsx)(v.a, {
-                                      children: Object(c.jsx)("div", {
-                                        className: "video-item",
-                                        children: Object(c.jsx)("video", {
-                                          controls: !1,
-                                          autoPlay: !0,
-                                          loop: !0,
-                                          muted: !0,
-                                          playsInline: !0,
-                                          className: "video-phone",
-                                          height: "100%",
-                                          width: "100%",
-                                          children: Object(c.jsx)("source", {
-                                            src: g,
-                                            type: "video/mp4",
-                                          }),
-                                        }),
-                                      }),
-                                    }),
-                                    Object(c.jsx)(v.a, {
-                                      children: Object(c.jsx)("div", {
-                                        className: "video-item",
-                                        children: Object(c.jsx)("video", {
-                                          controls: !1,
-                                          autoPlay: !0,
-                                          loop: !0,
-                                          muted: !0,
-                                          playsInline: !0,
-                                          className: "video-phone",
-                                          height: "100%",
-                                          width: "100%",
-                                          children: Object(c.jsx)("source", {
-                                            src: g,
-                                            type: "video/mp4",
-                                          }),
-                                        }),
-                                      }),
-                                    }),
-                                    Object(c.jsx)(v.a, {
-                                      children: Object(c.jsx)("div", {
-                                        className: "video-item",
-                                        children: Object(c.jsx)("video", {
-                                          controls: !1,
-                                          autoPlay: !0,
-                                          loop: !0,
-                                          muted: !0,
-                                          playsInline: !0,
-                                          className: "video-phone",
-                                          height: "100%",
-                                          width: "100%",
-                                          children: Object(c.jsx)("source", {
-                                            src: g,
-                                            type: "video/mp4",
-                                          }),
-                                        }),
-                                      }),
-                                    }),
-                                    Object(c.jsx)(v.a, {
-                                      children: Object(c.jsx)("div", {
-                                        className: "video-item",
-                                        children: Object(c.jsx)("video", {
-                                          controls: !1,
-                                          autoPlay: !0,
-                                          loop: !0,
-                                          muted: !0,
-                                          playsInline: !0,
-                                          className: "video-phone",
-                                          height: "100%",
-                                          width: "100%",
-                                          children: Object(c.jsx)("source", {
-                                            src: g,
-                                            type: "video/mp4",
-                                          }),
+                                    Object(c.jsx)(h.a, {
+                                      top: !0,
+                                      duration: 1200,
+                                      delay: 1e3,
+                                      children: Object(c.jsx)("button", {
+                                        className: "ios",
+                                        children: Object(c.jsx)("img", {
+                                          src: "//aws-static.kwai.net/udata/pkg/proweb/www/download_appstore.png",
+                                          alt: "",
                                         }),
                                       }),
                                     }),
                                   ],
                                 }),
-                              ],
-                            }),
-                          }),
-                        }),
-                        Object(c.jsx)("div", {
-                          className: "btns mobile-btn",
-                          children: Object(c.jsxs)("div", {
-                            className: "download-btns all-channel",
-                            children: [
-                              Object(c.jsx)(h.a, {
-                                top: !0,
-                                duration: 1200,
-                                delay: 1e3,
-                                children: Object(c.jsx)("button", {
-                                  className: "android",
-                                  children: Object(c.jsx)("img", {
-                                    src: "//aws-static.kwai.net/udata/pkg/proweb/www/download_gp.png",
-                                    alt: "",
-                                  }),
-                                }),
-                              }),
-                              Object(c.jsx)(h.a, {
-                                top: !0,
-                                duration: 1200,
-                                delay: 1e3,
-                                children: Object(c.jsx)("button", {
-                                  className: "ios",
-                                  children: Object(c.jsx)("img", {
-                                    src: "//aws-static.kwai.net/udata/pkg/proweb/www/download_appstore.png",
-                                    alt: "",
-                                  }),
-                                }),
                               }),
                             ],
                           }),
-                        }),
-                      ],
-                    }),
-                  ],
-                }),
-              ],
-            }),
-          });
-        },
-        E = function () {
+                          Object(c.jsx)("div", {
+                            className: "home-video",
+                            children: Object(c.jsx)(h.a, {
+                              bottom: !0,
+                              duration: 1400,
+                              delay: 1200,
+                              children: Object(c.jsxs)("div", {
+                                className: "video-container",
+                                children: [
+                                  Object(c.jsx)("div", {
+                                    ref: o,
+                                    className: "arrow arrow-t btn-move",
+                                  }),
+                                  Object(c.jsx)("div", {
+                                    ref: e,
+                                    className: "arrow arrow-d btn-move",
+                                  }),
+                                  Object(c.jsxs)(f.a, {
+                                    navigation: {
+                                      prevEl: e.current,
+                                      nextEl: o.current,
+                                    },
+                                    onInit: function (a) {
+                                      (a.params.navigation.prevEl = e.current),
+                                        (a.params.navigation.nextEl = o.current),
+                                        a.navigation.init(),
+                                        a.navigation.update();
+                                    },
+                                    spaceBetween: 70,
+                                    slidesPerView: 1,
+                                    height: "500",
+                                    loop: !0,
+                                    autoplay: {
+                                      disableOnInteraction: !1,
+                                      delay: 2e4,
+                                    },
+                                    children: [
+                                      Object(c.jsx)(v.a, {
+                                        children: Object(c.jsx)("div", {
+                                          className: "video-item",
+                                          children: Object(c.jsx)("video", {
+                                            controls: !1,
+                                            autoPlay: !0,
+                                            loop: !0,
+                                            muted: !0,
+                                            playsInline: !0,
+                                            className: "video-phone",
+                                            height: "100%",
+                                            width: "100%",
+                                            children: Object(c.jsx)("source", {
+                                              src: j,
+                                              type: "video/mp4",
+                                            }),
+                                          }),
+                                        }),
+                                      }),
+                                      Object(c.jsx)(v.a, {
+                                        children: Object(c.jsx)("div", {
+                                          className: "video-item",
+                                          children: Object(c.jsx)("video", {
+                                            controls: !1,
+                                            autoPlay: !0,
+                                            loop: !0,
+                                            muted: !0,
+                                            playsInline: !0,
+                                            className: "video-phone",
+                                            height: "100%",
+                                            width: "100%",
+                                            children: Object(c.jsx)("source", {
+                                              src: g,
+                                              type: "video/mp4",
+                                            }),
+                                          }),
+                                        }),
+                                      }),
+                                      Object(c.jsx)(v.a, {
+                                        children: Object(c.jsx)("div", {
+                                          className: "video-item",
+                                          children: Object(c.jsx)("video", {
+                                            controls: !1,
+                                            autoPlay: !0,
+                                            loop: !0,
+                                            muted: !0,
+                                            playsInline: !0,
+                                            className: "video-phone",
+                                            height: "100%",
+                                            width: "100%",
+                                            children: Object(c.jsx)("source", {
+                                              src: g,
+                                              type: "video/mp4",
+                                            }),
+                                          }),
+                                        }),
+                                      }),
+                                      Object(c.jsx)(v.a, {
+                                        children: Object(c.jsx)("div", {
+                                          className: "video-item",
+                                          children: Object(c.jsx)("video", {
+                                            controls: !1,
+                                            autoPlay: !0,
+                                            loop: !0,
+                                            muted: !0,
+                                            playsInline: !0,
+                                            className: "video-phone",
+                                            height: "100%",
+                                            width: "100%",
+                                            children: Object(c.jsx)("source", {
+                                              src: g,
+                                              type: "video/mp4",
+                                            }),
+                                          }),
+                                        }),
+                                      }),
+                                      Object(c.jsx)(v.a, {
+                                        children: Object(c.jsx)("div", {
+                                          className: "video-item",
+                                          children: Object(c.jsx)("video", {
+                                            controls: !1,
+                                            autoPlay: !0,
+                                            loop: !0,
+                                            muted: !0,
+                                            playsInline: !0,
+                                            className: "video-phone",
+                                            height: "100%",
+                                            width: "100%",
+                                            children: Object(c.jsx)("source", {
+                                              src: g,
+                                              type: "video/mp4",
+                                            }),
+                                          }),
+                                        }),
+                                      }),
+                                      Object(c.jsx)(v.a, {
+                                        children: Object(c.jsx)("div", {
+                                          className: "video-item",
+                                          children: Object(c.jsx)("video", {
+                                            controls: !1,
+                                            autoPlay: !0,
+                                            loop: !0,
+                                            muted: !0,
+                                            playsInline: !0,
+                                            className: "video-phone",
+                                            height: "100%",
+                                            width: "100%",
+                                            children: Object(c.jsx)("source", {
+                                              src: g,
+                                              type: "video/mp4",
+                                            }),
+                                          }),
+                                        }),
+                                      }),
+                                      Object(c.jsx)(v.a, {
+                                        children: Object(c.jsx)("div", {
+                                          className: "video-item",
+                                          children: Object(c.jsx)("video", {
+                                            controls: !1,
+                                            autoPlay: !0,
+                                            loop: !0,
+                                            muted: !0,
+                                            playsInline: !0,
+                                            className: "video-phone",
+                                            height: "100%",
+                                            width: "100%",
+                                            children: Object(c.jsx)("source", {
+                                              src: g,
+                                              type: "video/mp4",
+                                            }),
+                                          }),
+                                        }),
+                                      }),
+                                      Object(c.jsx)(v.a, {
+                                        children: Object(c.jsx)("div", {
+                                          className: "video-item",
+                                          children: Object(c.jsx)("video", {
+                                            controls: !1,
+                                            autoPlay: !0,
+                                            loop: !0,
+                                            muted: !0,
+                                            playsInline: !0,
+                                            className: "video-phone",
+                                            height: "100%",
+                                            width: "100%",
+                                            children: Object(c.jsx)("source", {
+                                              src: g,
+                                              type: "video/mp4",
+                                            }),
+                                          }),
+                                        }),
+                                      }),
+                                    ],
+                                  }),
+                                ],
+                              }),
+                            }),
+                          }),
+                          Object(c.jsx)("div", {
+                            className: "btns mobile-btn",
+                            children: Object(c.jsxs)("div", {
+                              className: "download-btns all-channel",
+                              children: [
+                                Object(c.jsx)(h.a, {
+                                  top: !0,
+                                  duration: 1200,
+                                  delay: 1e3,
+                                  children: Object(c.jsx)("button", {
+                                    className: "android",
+                                    children: Object(c.jsx)("img", {
+                                      src: "//aws-static.kwai.net/udata/pkg/proweb/www/download_gp.png",
+                                      alt: "",
+                                    }),
+                                  }),
+                                }),
+                                Object(c.jsx)(h.a, {
+                                  top: !0,
+                                  duration: 1200,
+                                  delay: 1e3,
+                                  children: Object(c.jsx)("button", {
+                                    className: "ios",
+                                    children: Object(c.jsx)("img", {
+                                      src: "//aws-static.kwai.net/udata/pkg/proweb/www/download_appstore.png",
+                                      alt: "",
+                                    }),
+                                  }),
+                                }),
+                              ],
+                            }),
+                          }),
+                        ],
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+            });
+          };
+
+        var E = function () {
           return Object(c.jsx)("div", {});
-        },
-        I =
+        };
+
+        var I =
           (a(46),
           function () {
             return Object(c.jsxs)("div", {
@@ -1918,8 +1921,9 @@
                 }),
               ],
             });
-          }),
-        P =
+          });
+
+        var P =
           (a(47),
           function () {
             return Object(c.jsxs)("div", {
@@ -3389,8 +3393,9 @@
                 }),
               ],
             });
-          }),
-        U = function () {
+          });
+
+        var U = function () {
           return Object(c.jsxs)("div", {
             className: "wrap-page terms-page",
             children: [
@@ -3856,8 +3861,9 @@
               }),
             ],
           });
-        },
-        C = function () {
+        };
+
+        var C = function () {
           return Object(c.jsxs)("div", {
             className: "wrap-page terms-page",
             children: [
@@ -5136,8 +5142,9 @@
               }),
             ],
           });
-        },
-        D =
+        };
+
+        var D =
           (a(48),
           a.p,
           function () {
@@ -5282,8 +5289,9 @@
                 }),
               ],
             });
-          }),
-        T =
+          });
+
+        var T =
           (a(49),
           function () {
             return Object(c.jsx)(c.Fragment, {
@@ -5300,8 +5308,9 @@
                 }),
               }),
             });
-          }),
-        z = function () {
+          });
+
+        var z = function () {
           return Object(c.jsx)(c.Fragment, {
             children: Object(c.jsxs)(l.a, {
               children: [
@@ -5345,43 +5354,44 @@
             }),
           });
         };
-      var G = function () {
-          var e = Object(i.useState)(!1),
-            o = Object(t.a)(e, 2),
-            a = o[0],
-            s = o[1];
-          return (
-            Object(i.useEffect)(function () {
-              s(!0),
-                setTimeout(function () {
-                  s(!1);
-                }, 4500);
-            }, []),
-            Object(c.jsx)(c.Fragment, {
-              children: a ? Object(c.jsx)(d, {}) : Object(c.jsx)(z, {}),
-            })
-          );
-        },
-        k = function (e) {
-          e &&
-            e instanceof Function &&
-            a
-              .e(3)
-              .then(a.bind(null, 58))
-              .then(function (o) {
-                var a = o.getCLS,
-                  i = o.getFID,
-                  s = o.getFCP,
-                  r = o.getLCP,
-                  n = o.getTTFB;
-                a(e), i(e), s(e), r(e), n(e);
-              });
-        };
-      n.a.render(
-        Object(c.jsx)(s.a.StrictMode, { children: Object(c.jsx)(G, {}) }),
-        document.getElementById("root")
-      ),
-        k();
+
+        var G = function () {
+            var e = Object(i.useState)(!1),
+              o = Object(t.a)(e, 2),
+              a = o[0],
+              s = o[1];
+            return (
+              Object(i.useEffect)(function () {
+                s(!0),
+                  setTimeout(function () {
+                    s(!1);
+                  }, 4500);
+              }, []),
+              Object(c.jsx)(c.Fragment, {
+                children: a ? Object(c.jsx)(d, {}) : Object(c.jsx)(z, {}),
+              })
+            );
+          },
+          k = function (e) {
+            e &&
+              e instanceof Function &&
+              a
+                .e(3)
+                .then(a.bind(null, 58))
+                .then(function (o) {
+                  var a = o.getCLS,
+                    i = o.getFID,
+                    s = o.getFCP,
+                    r = o.getLCP,
+                    n = o.getTTFB;
+                  a(e), i(e), s(e), r(e), n(e);
+                });
+          };
+        n.a.render(
+          Object(c.jsx)(s.a.StrictMode, { children: Object(c.jsx)(G, {}) }),
+          document.getElementById("root")
+        ),
+          k();
     },
   },
   [[50, 1, 2]],
